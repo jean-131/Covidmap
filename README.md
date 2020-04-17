@@ -14,7 +14,8 @@ ademas si sientes sintomas , pediremos tus datos como nombre, edad, sexo y si ti
 para asi tener una base de datos mas eficiente.
 
 # ARQUICTETURA
-
+<h2>Dockerfile</h2>
+Este archivo directamente relacionado con el contenedor se encargará de ejecutar las instrucciones necesarias al momento de montar el servidor. Levantara los servicios necesarios y ejecutará el .py por debajo de memoria
 
 
 

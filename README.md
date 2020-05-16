@@ -5,7 +5,9 @@ Detalles del Estudiante:
 Jean pierre agudelo taborda
 ID :  400081
 Ing. Sistemas
-
+Jhonatan Harold Rueda
+ID : 379440
+Ing. telecomunicaciones
 # DESCRIPCIÓN
 Para el desarrollo de la aplicacion usaremos App inventor,
 La Aplicación te ayudara a manejar la crisis actual del coronavirus, esta dara información
@@ -20,7 +22,7 @@ En Appinventor sera donde construiremos la aplicación que contara con 3 pantall
 
 # ARQUICTETURA
 <h2>Dockerfile</h2>
-El Dockerfile se encargara de montar el servidor, relacionandose con los contenedores; Levantara los servicios necesarios y ejecutará el .py por debajo de memoria
+El Dockerfile se encargara de montar el servidor, relacionandose con los contenedores; Levantara los servicios necesarios y ejecutará el .py por debajo de memoria y a habilitara el puerto 80 para su uso.
 
 <h2>proyect.py</h2>
   Este sera el archivo principal del proyecto, aqui recibira los datos enviados por el usuario utilizando el metodo POST implementado en 

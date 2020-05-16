@@ -33,7 +33,7 @@ El Dockerfile se encargara de montar el servidor, relacionandose con los contene
  Esta base de datos tendrá la información de los casos confirmados de covid-19 en Medellín incluyendo los datos dados por los usuarios enfermos o con sospechas. Estos datos son suministrados por internet y mismos usuarios de la aplicación 
  
  # Contenedor en Docker
-  Se usara Ubuntu server 18 en el habrá un contenedor, en  este  estaran los archivos, el flask, el pip y python ya estaran instalados ademas el servidor apache, todo previamente actualizado para poder ser usado
+  Se usara Ubuntu server 18 en el habrá un contenedor, en  este  estaran los archivos, el flask, el pip y python ya estaran instalados todo previamente actualizado para poder ser usado
   
   # Tipo de Servidor y Firewall
  Se usuará el UFW como el firewall del sistema habilitando el puerto 80. Si el servicio se va montar en una red de servidores en la nube (como AWS) se activara el puerto 22 y se haran las configuraciones de los grupos de seguridad respectivos.

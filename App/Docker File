@@ -1,1 +1,17 @@
 
+FROM python:3
+
+ADD test01.py /
+
+RUN pip install pystrich
+
+RUN pip install flask
+
+RUN pip install dash
+
+RUN pip install pandas
+
+EXPOSE 80
+
+CMD [ "python", "./test01.py" ]
+
